@@ -1,0 +1,80 @@
+
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-Thin.ttf');
+    font-weight: thin;
+    font-style: normal;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-ThinItalic.ttf');
+    font-weight: thin;
+    font-style: italic;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-Black.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: Roboto;
+    src: url('assets/Roboto-BlackItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+* {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.tabla {
+    width: 100%;
+}
+.tokenTitulo,.idTitulo,.nombreTitulo, .grupoTitulo, .mesaTitulo, .confirmadoTitulo{
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.item{
+    padding: 10px;
+}
+.fila{
+    background-color: rgb(158, 232, 255);
+}
+
+.confirmado {
+    color: green;
+}
+.no-confirmado{
+    color: red;
+}
+
